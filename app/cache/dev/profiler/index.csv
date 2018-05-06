@@ -1,0 +1,7 @@
+fa8335,::1,GET,http://localhost:8000/,1525600348,eb077d
+eb077d,::1,GET,http://localhost:8000/,1525600348,
+def06b,127.0.0.1,GET,http://localhost:8000/_fragment?_path=_format%3Dhtml%26_locale%3Dfr%26_controller%3DEcommerceBundle%253AProduits%253Arecherche,1525600468,7eaf6e
+e25e85,127.0.0.1,GET,http://localhost:8000/_fragment?_path=_format%3Dhtml%26_locale%3Dfr%26_controller%3DEcommerceBundle%253ACategories%253Amenu,1525600468,7eaf6e
+5ec20f,127.0.0.1,GET,http://localhost:8000/_fragment?_path=_format%3Dhtml%26_locale%3Dfr%26_controller%3DEcommerceBundle%253APanier%253Amenu,1525600468,7eaf6e
+957f62,127.0.0.1,GET,http://localhost:8000/_fragment?_path=_format%3Dhtml%26_locale%3Dfr%26_controller%3DPagesBundle%253APages%253Amenu,1525600468,7eaf6e
+7eaf6e,::1,GET,http://localhost:8000/,1525600468,
