@@ -69,7 +69,38 @@ class ProduitsData extends AbstractFixture implements OrderedFixtureInterface
         $produit6->setPrix('1.20');
         $produit6->setTva($this->getReference('tva2'));
         $manager->persist($produit6);
-        
+
+        $produit7 = new Produits();
+        $produit7->setCategorie($this->getReference('categorie2'));
+        $produit7->setDescription("La banane est le fruit ou la baie dérivant de l’inflorescence du bananier. Les bananes sont des fruits très généralement stériles issus de variétés domestiquées.");
+        $produit7->setDisponible('1');
+        $produit7->setImage($this->getReference('media9'));
+        $produit7->setNom('Banane');
+        $produit7->setPrix('3.20');
+        $produit7->setTva($this->getReference('tva2'));
+        $manager->persist($produit7);
+
+        $produit8 = new Produits();
+        $produit8->setCategorie($this->getReference('categorie2'));
+        $produit8->setDescription("Les kiwis sont des fruits de plusieurs espèces de lianes du genre Actinidia, famille des Actinidiaceae.");
+        $produit8->setDisponible('1');
+        $produit8->setImage($this->getReference('media10'));
+        $produit8->setNom('Kiwi');
+        $produit8->setPrix('4.25');
+        $produit8->setTva($this->getReference('tva2'));
+        $manager->persist($produit8);
+
+        $produit9 = new Produits();
+        $produit9->setCategorie($this->getReference('categorie2'));
+        $produit9->setDescription("La fraise est le fruit des fraisiers. Elle appartient au genre Fragaria, plante herbacée de la famille des Rosaceae.");
+        $produit9->setDisponible('1');
+        $produit9->setImage($this->getReference('media11'));
+        $produit9->setNom('Fraise');
+        $produit9->setPrix('3.75');
+        $produit9->setTva($this->getReference('tva1'));
+        $manager->persist($produit9);
+
+
         $manager->flush();
     }
     
